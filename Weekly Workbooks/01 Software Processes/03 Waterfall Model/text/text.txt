@@ -1,0 +1,6 @@
+Software Development is a complex activity and it is useful to have a high-level appreciation of the entire "lifecyle" of a software system. View the slides and video linked to above to find out about the "Waterfall Model" of software development and the various phases that it entails. With this knowledge in mind, think about the units that you studied previously in Teaching Block 1. Use <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG37h-tXTP5NGqEknVplKlalUMTc4QjBQUEVNTEZNVThPMDZMQTNBVTBGMy4u" target="_blank">this online form</a> to indicate which stages of the software lifecyle have previously been covered in your degree programme.
+
+It is worth noting that this task is a little tricky because...
+
+1. It requires you to understand the nature of the stages of the software lifecyle
+2. It requires you to understand exactly what it was that you were taught last term !

@@ -1,0 +1,10 @@
+Introduction Slides
+
+Introduce unit
+Introduce Software Engineering
+Put into context with Group Project
+Explain how everything is going to work
+Introduce GitHub and how it will be used
+Mention that this tool is taught in the "Software Tools" sister unit
+Introduce weekly workbooks and Microsoft forms
+Explain how unit is going to be assessed (3 parts: BB class test, HCI bit, Project Proposal)
