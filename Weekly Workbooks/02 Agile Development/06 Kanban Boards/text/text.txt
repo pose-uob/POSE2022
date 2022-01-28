@@ -1,0 +1,15 @@
+Maintaining a "Kanban" boards is a common practice in many Agile methods. Take a look at the slides and video linked to above to gain an understanding of the structure and operation of such boards. The video illustrates the use of Kanban boards using a popular project management tool called "Jira" - this is just one of many Kanban board systems available (you might also have heard of "Trello" and "Monday.com" !)
+
+You are not currently working on a project of any significant size that we might use as a basis for a Kanban board activity. Instead, let us play a simple game in order to give you some first-hand experience of using the Kanban boards provided by GitHub. This game involves you answering general knowledge questions posed by students on the unit, as well as setting your own questions for other people to answer.
+
+Visit the <a href="https://github.com/pose-uob/POSE2022/projects/1" target="_blank">Google Quest Kanban Board</a> that we have created for you on the POSE GitHub repository. Note that you will need to be a member of the POSE Github organisation in order to access this page ! Using the Kanban board, perform the following actions:
+
+1. Add a new "note" to the "What I really want to know is..." column by clicking on the `+` button
+2. Enter a suitable question (that you'd like someone else to answer)
+3. Convert the "note" into an "issue" by clicking on the `...` button and selecting "Convert to issue"
+4. Pick an existing "issue" (_not_ one of your own) from the "What I really want to know is..." column 
+5. Move your chosen issue into the "Under investigation" column
+6. Assign yourself to the issue (so that everyone knows you have chosen it)
+7. Search the internet to find an appropriate answer to the question
+8. Enter your answer in the "comments" section of the issue
+9. When finished, click the "Close issue" button (which should move it into the "Resolved" column)

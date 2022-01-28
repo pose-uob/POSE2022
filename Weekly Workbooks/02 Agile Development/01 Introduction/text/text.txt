@@ -1,0 +1,1 @@
+In the previous workbook, we considered development processes at a very high level of abstraction. In this week's workbook, our discussion becomes a lot more specific as we focus on a particular class of development methodologies known as "Agile".

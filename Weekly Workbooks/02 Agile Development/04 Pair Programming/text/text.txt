@@ -1,0 +1,8 @@
+We have already mentioned the concept of "Pair Programming" as being a key Agile practice. This is a very useful technique that can be applied directly in your work (especially if you are planning on doing a group project over the summer !). View the slides and video linked to above to gain a deeper understanding of this particular practice.
+
+Now watch <a href="media/Pair-Programming.mp4" target="_blank">this example of pair programming</a> (taken from a Bloomberg example interview video). Note that you do not need to try to understand the problem the two developers are trying to solve, nor do you need to be able to read and interpret the code that they are writing. Your objective is just to simply observes and appreciate the high-level _activities_ involved in peer programming.
+
+Whilst watching the video, make a note of the strategies that the "navigator" is using to help guide the "driver". At the end of the video, visit the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG37h-tXTP5NGqEknVplKlalUOU1NS1BaNFhHS1c0Nk9PMlpSVUpQUjNCVS4u" target="_blank">online form</a> and enter at least three useful actions the "navigator" has taken during the sample exercise. We will discuss the various suggestions submitted during the next live teaching session. To give you an idea of the type strategies we are looking for, an example of a useful navigator practice might be:
+```
+Asking the "driver" to reiterate the problem to ensure both developers have a shared understanding.
+```

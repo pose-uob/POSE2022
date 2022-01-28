@@ -1,0 +1,1 @@
+In this workbook we have introduced some of the common characteristics and practices of Agile development. We have looked in some level of detail at two of these (namely Pair Programming and Kanban boards). In later workbooks will we get the opportunity to explore some of the other practices that we introduced, but didn't fully explore in this workbook.
