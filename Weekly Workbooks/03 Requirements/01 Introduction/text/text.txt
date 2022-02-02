@@ -1,0 +1,2 @@
+Requirements analysis is a fundamental element of any software process - we need to understand _what_ needs to be built _before_ we can go about trying to built it. View slides and audio narration above for a high-level overview of Requirements Engineering and for an explanation of why this activity is essential to the success of systems development. Once you have a grasp of the key concepts, move on to attempt the subsequent tasks in this workbook.
+

@@ -1,0 +1,7 @@
+Once we have identified a set of stakeholders, we can start to think about what these individuals and organisations might need from a system. There are various approaches that we can use to think about (and then document) these kinds of functional needs. Take a look at the slides and video linked to above to gain an understanding of the concept of "User Stories". 
+
+Considering the IMDB website example, provide at least three user stories for the "standard" user (home film viewer or cinema goer). You should submit your suggestions via <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG37h-tXTP5NGqEknVplKlalUMDJSOTlHTk5TNDUxNlg4OUZJVlZZMjIwSy4u" target="_blank">this online form</a>. Be sure to enter your User Stories in the following standard format:
+
+| Standard format: | as a `<type of user>`, I want to `<some goal>` so that `<some reason>` |
+|:-----------------|-----------------------------------------------------------------------:|
+
