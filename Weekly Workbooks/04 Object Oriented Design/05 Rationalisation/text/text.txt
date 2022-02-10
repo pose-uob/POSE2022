@@ -1,0 +1,4 @@
+Noun-verb analysis provides a good "first attempt" at identifying classes and methods for an Object Oriented Design. _However_, if often results in duplicates as well as "inappropriately" sized classes (either too small and simple or too large and complex). As a result of this, we must typically bring our judgement into play as experienced developers in order to adjust the output of noun-verb analysis into something that can form the basis of a solid design.
+
+View the slides and video linked to above to gain an understanding of the type and range of design decisions we might have to make. With this in mind, rationalise the output of your previous noun-verb analysis into a set appropriate classes, attributes and methods. Again, there is no need to submit these via the weekly workbook forms - we will further process these in subsequent tasks later on in this workbook.
+

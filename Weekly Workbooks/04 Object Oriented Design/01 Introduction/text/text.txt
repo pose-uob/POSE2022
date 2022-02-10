@@ -1,0 +1,4 @@
+This week's workbook focuses on devising and documenting the design of complex software systems. The design process is very much a creative activity that takes us from an identified "problem" all the way through to an abstract representation of a technical solution to that problem. The solution is presented as a set of design documents (a bit like a "blueprint") that describes the structure and abstract behaviour of the intended system.
+
+It is worth noting at this point that the design process is not formulaic - there is no universal mechanism that can be used to "derive" a system design. There are analysis tool and techniques that can assist, but the process relies heavily on the skill and experience of the human designers. View the slides and video above to find out more about the nature of design and the importance of undertaking it _before_ implementation begins. Once you have gained this understanding, move on to the subsequent tasks in this workbook.
+

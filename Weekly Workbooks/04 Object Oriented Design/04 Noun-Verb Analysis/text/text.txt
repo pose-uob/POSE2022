@@ -1,0 +1,4 @@
+As we mentioned previously, there is no formulaic or mechanistic way to go from an identified problem to the design for a solution. HOWEVER, all is not lost - there are a number of approaches that will at least help you get started on the way towards a solution. One such approach is known as "Noun-Verb" analysis. View the slides and video linked to above to gain an understanding of this approach. Once you have done so, your job is to identify a set of classes and a set of methods for our example system (IMDB).
+
+As a target for your analysis, take a look at the "overview" and "features" sections of the <a href="https://en.wikipedia.org/wiki/IMDb" target="_blank">IMDB wikipedia page</a>. As you work your way through the wikipedia page, make a note of all classes and methods you identify - you will not need to submit them via the weekly workbook form just yet (we will be refining them further before the end of this workbook).
+

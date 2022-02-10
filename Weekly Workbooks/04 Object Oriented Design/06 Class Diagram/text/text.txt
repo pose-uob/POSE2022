@@ -1,0 +1,26 @@
+Now that you have arrived at a suitable set of classes, attributes and methods, our next task is to present these is an appropriate manner. In order to do this, we will use one of the standard diagrams from the Unified Modeling Language - the Class Diagram. You will already have some experience of _interpreting_ class diagrams from the Java unit, however now you will get the opportunity to actually create one of these diagrams of your own.
+
+Create a class diagram for the IMDB system by writing a Graphvis document that defines the structure of your diagram. To help get you started, we have provided you with a simple example Graphvis document (written in a language called `dot`) as shown below:
+
+``` java
+digraph diagram {
+	node [shape="record", fontname="helvetica", fontsize=11]
+	rankdir = BT
+
+	Robot [label="{
+		Robot
+		|
+		- name : String \l
+		- powerLevel : float \l
+		|
+		+ talk(String) : void \l
+		+ charge(float) : void \l
+	}"]
+}
+```
+The first three lines create a new diagram, define the appearance of a "node" (in this case the classes in the diagram) and set the layout of the diagram to be vertical (`BT` means "Bottom to Top"). Most of the remaining lines of the document create a new class (called `Robot`) which contains two attributes (`name` and `powerLevel`) and two methods (`talk` and `charge`). Two `dot` formatting notations that you should be aware of are newlines (represented as `\l`) and horizontal section dividers (represented somewhat counter-intuitively as `|`).
+
+You should also note that in UML, return types are shown _after_ the attribute/method name (following the `:` character), parameters are presented as type only (i.e. no parameter name) and the method visibility is presented using a single character at the start of each line (`+` is public, `-` is private, `#` is protected).
+
+The Graphvis document above will generate the class shown in the diagram below when processed by a Graphviz rendering tool such as the
+<a href="https://dreampuf.github.io/GraphvizOnline/" target="_blank">online tool</a> recommended previously. 

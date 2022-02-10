@@ -1,0 +1,20 @@
+Class diagrams are not just about classes, attributes and methods - a key part of them are the various relationships that exist _between_ classes. View the slides and video linked to above for a discussion of the various relationships that can exist. Then, with this knowledge in mind, add some relationships to your class diagram. To help you in this task, the following Graphviz document illustrates the addition of a relationship link between the `TranslationRobot` class and the `Robot` class through the use of the `->` symbol. Note that we have simplified the two classes (by removing all attributes and methods) for the sake of simplicity and readability.
+
+``` java
+digraph diagram {
+	node [shape="record", fontname="helvetica", fontsize=11]
+	rankdir = BT
+
+	Robot [label="{Robot}"]
+	TranslationRobot [label="{TranslationRobot}"]
+
+	TranslationRobot -> Robot [arrowhead="empty"]
+}
+```
+Graphviz supports various different UML relationships notions including:
+
+- Inheritance: rendered using `arrowhead = "empty"` and looks like this: <img src="resources/inheritance.jpg" style="vertical-align: middle;" />
+- Aggregation: rendered using `arrowhead = "odiamond"` and looks like this: <img src="resources/aggregation.jpg" style="vertical-align: middle;" />
+- Dependency: rendered using `arrowhead = "vee"` and looks like this: <img src="resources/association.jpg" style="vertical-align: middle;" />
+
+You might like to try to include examples of all of the above relationship types in your class diagram. Once you have completed your diagram, generate a PNG image of it (by setting "Format" to `png-image-element` and then clicking the "Download" button). Finally upload your class diagram via the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG37h-tXTP5NGqEknVplKlalUQUIwVlVRMzVLMFJRSjRMTFNBWkpLVFcwRy4u" target="_blank">online submission form</a>.
