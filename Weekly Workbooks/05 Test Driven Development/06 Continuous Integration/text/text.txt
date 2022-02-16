@@ -1,0 +1,5 @@
+Continuous Integration (CI) is a key practice in many Agile methods (perhaps most notably Extreme Programming). View the video above for a walk-through of how Continuous Integration is achieved within GitHub. Note that although the video above focus on the use of GitHub Actions, the concepts are transferable to other similar Continuous Integration platforms.
+
+Now that you have an understanding of Continuous Integration, your task is to add a GitHub Action to your fork of the IMDB repository. You should configure this Action to run the JUnit tests that you created in a previous workbook task. Test out the Action by pushing a change to the repository and make sure the action is executed. You might like to introduce a bug into the code - just to check that failed tests are indeed reported by GitHub.
+
+Note that this task is not a difficult challenge: it should just a case of following the steps demonstrated in the video above. The practice will however be useful for when you need to set up CI for your own projects.

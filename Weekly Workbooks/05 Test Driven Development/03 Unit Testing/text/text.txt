@@ -1,0 +1,18 @@
+In order to successfully employ Test Driven Development, we first need to be able to effectively perform **Unit Testing**. Take a look at the set of slides and video linked to above to find out how to approach this activity. Once you are confident that you have understood the concepts, move on to apply your knowledge to the following testing activity...
+
+A feature that IMDB offers is the ability to maintain an overall movie rating (produced by calculating the average of all ratings previously submitted). Below is some sample code that implements this feature. As you can see, the method takes a single parameter (a new "marks out of 10" rating), calculates an updated average based on this and previous ratings, finally passing back the updated average as a return value.
+
+```java
+private float currentAverage = 0;
+private int ratingCount = 0;
+
+public float addNewRating(int newRating)
+{
+    int previousTotal = (int) (currentAverage * ratingCount);
+    int newTotal = previousTotal + newRating;
+    ratingCount++;
+    currentAverage = newTotal / ratingCount;
+    return currentAverage;
+}
+```
+Although this is only a very simple method, it is still possible to use equivalence partitions to identify a suitable set of test cases. Identify 4 different equivalence partitions for the `newRating` parameter and enter a suitable test value from each into the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG37h-tXTP5NGqEknVplKlalUMVlKNjVCRkU2NTlRWU5RSVkxRlE1Qlc3WC4u" target="_blank">weekly workbook form</a>.

@@ -1,0 +1,20 @@
+A simple (if fairly rudimentary) way to make HTTP requests from a Java application (or JUnit test script) is by using the `HttpURLConnection` class. We can use this to call the HTTP request handlers provided by an application, and then use assertions as normal to test the response received.
+
+For example, we can use the following code to query IMDB and read in the response returned from the server:
+
+```java
+URL url = new URL("https://www.imdb.com/search/title/?locations=bristol&role=nm0263368");
+HttpURLConnection connection =(HttpURLConnection)url.openConnection();
+connection.setDoOutput(true);
+connection.setRequestMethod("GET");
+InputStream stream = connection.getInputStream();
+BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+String nextLine = reader.readLine();
+while(nextLine != null) {
+    // Check the line to see what it contains
+    ?????????????????????????????????????????
+    nextLine = reader.readLine();
+}
+```
+
+Note that you will need to import some classes and catch some exceptions in order to get the above code to work !
