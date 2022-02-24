@@ -1,0 +1,85 @@
+digraph diagram {
+
+    node [fontname="helvetica", fontsize=14]
+    ranksep = 0.7;
+
+    subgraph Actors {
+        node [shape = "ellipse"];
+        Pilots [label = "Pilots"];
+        Passengers [label = "Passengers"];
+        ATC [label = "Air Traffic Control"];
+        Airline [label = "Airline"];
+        OtherPilots [label = "Other Pilots in Airline"];
+        AircraftMaker [label = "Aircraft Manufacturer"];
+        AircraftSales [label = "Aircraft Marketing Team"];
+        CockpitMaker [label = "Cockpit Designers"];
+        EngineMaker [label = "Engine Manufacturer"];
+        CAA [label = "Civil Aviation Authority"];
+        AAIB [label = "Air Accidents Investigation Branch"];
+    }
+
+    subgraph Errors {
+        node [shape = "box"];
+        WrongEngine [label = "Shut down good engine"];
+        WarningLight [label = "Warning light not provided"];
+        MysteryNode01 [label = "???"];
+        MysteryNode02 [label = "???"];
+        Simulator [label = "Lack of simulator"];
+        EngineDesign [label = "Flawed design principles"];
+        MysteryNode03 [label = "???"];
+        MysteryNode04 [label = "???"];
+        SawSmoke [label = "Concerns not raised"];
+        MysteryNode05 [label = "???"];
+        MysteryNode06 [label = "???"];
+        MysteryNode07 [label = "???"];
+        AutoThrottle [label = "Over-active auto-throttle"];
+        MysteryNode08 [label = "???"];
+        MysteryNode09 [label = "???"];
+    }
+
+    subgraph Failures {
+        node [shape = "doubleoctagon"];
+        FailedAircraft [label = "Aircraft\nCrashes"];
+        MysteryNode10 [label = "???"];
+        MysteryNode11 [label = "???"];
+        MysteryNode12 [label = "???"];
+        MysteryNode13 [label = "???"];
+    }
+
+    Passengers -> SawSmoke
+    ATC -> MysteryNode09
+    Airline -> MysteryNode02
+    Airline -> Simulator
+    AircraftSales -> MysteryNode02
+    AircraftSales -> Simulator
+    EngineMaker -> MysteryNode03
+    EngineMaker -> EngineDesign
+    AircraftMaker -> AutoThrottle
+    AircraftMaker -> MysteryNode06
+    CockpitMaker -> MysteryNode04
+    MysteryNode04 -> MysteryNode01
+    MysteryNode04 -> WarningLight
+    MysteryNode01 -> MysteryNode11
+    WarningLight -> MysteryNode11
+    MysteryNode12 -> Pilots
+    Pilots -> MysteryNode11
+    MysteryNode11 -> WrongEngine
+    OtherPilots -> MysteryNode05
+    MysteryNode05 -> MysteryNode12
+    AAIB -> MysteryNode08
+    MysteryNode08 -> MysteryNode13
+    MysteryNode13 -> MysteryNode06
+    MysteryNode13 -> Simulator
+    WrongEngine -> FailedAircraft
+    MysteryNode10 -> FailedAircraft
+    EngineDesign -> MysteryNode10
+    MysteryNode03 -> MysteryNode10
+    SawSmoke -> MysteryNode11
+    MysteryNode09 -> MysteryNode11
+    Simulator -> MysteryNode12
+    MysteryNode02 -> MysteryNode12
+    CAA -> MysteryNode07
+    MysteryNode07 -> MysteryNode13
+    AutoThrottle -> MysteryNode11
+    MysteryNode06 -> MysteryNode11
+}

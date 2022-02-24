@@ -1,0 +1,13 @@
+You may also have noticed when viewing the previously provided UML class diagram document, that two of the class attributes are missing. Edit the graphviz document, replacing the `???` elements with appropriate attributes. You should pick the most appropriate attributes from the following list (don't invent ones of your own !):
+
+- `cockpit: Cockpit`
+- `lights: WarningLight[]`
+- `engine: Engine`
+- `sensors: sensorDevice[]`
+- `sensor: VibrationSensor`
+- `lever: ThrottleLever`
+- `engines: Engine[]`
+- `throttle: AutoThrottle`
+- `gauge: VibrationGauge`
+
+Ensure that you only change the `???` elements and don't alter any of the structure or content of the rest of the document.

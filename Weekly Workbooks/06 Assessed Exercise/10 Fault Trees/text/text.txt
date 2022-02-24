@@ -1,0 +1,24 @@
+In this task you will get the opportunity to demonstrate your knowledge and understanding of the Kegworth case study. A template <a href="templates/fault-tree.dot" target="_blank">fault tree diagram</a> has been provided for you which deconstructs the causes of the accident into a tree of contributing factors. You will have noticed that this fault tree is however not complete. It is your task to edit the document, replacing the `???` elements with appropriate faults, errors and failures. You should pick the most appropriate items from the following list to replace the `???` placeholders (don't invent ones of your own !):
+
+- `Competition`
+- `Profit motive`
+- `UK Government`
+- `Engine Failure`
+- `Flight Simulator`
+- `Failed Regulation`
+- `Incomplete Testing`
+- `No Power to Enforce`
+- `Incorrect Diagnosis`
+- `Engine Test Results`
+- `Failure of Training`
+- `Promotional Materials`
+- `Cameras not Installed`
+- `Constant Interruptions`
+- `Training not Questioned`
+- `Rejected Recommendations`
+- `Vibration Gauge too Small`
+- `Inadequate Training Materials`
+- `Institute of Aviation Medicine`
+- `Lack of User-centred Evaluation`
+
+Ensure that you only change the `???` elements and don't alter any of the structure or content of the rest of the document.

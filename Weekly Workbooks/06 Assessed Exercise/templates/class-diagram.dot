@@ -1,0 +1,94 @@
+digraph diagram {
+    node [shape="record", fontname="helvetica", fontsize=11]
+    ranksep = 0.3
+    rankdir = BT
+
+    SensorDevice [label="{
+        SensorDevice
+        |
+        |
+        + getCurrentReading(): float\l
+    }"]
+
+    VibrationSensor [label="{
+        VibrationSensor
+        |
+        |
+    }"]
+
+    MysteryClass1 [label="{
+        ???
+        |
+        |
+    }"]
+
+    MysteryClass2 [label="{
+        ???
+        |
+        |
+        + setValue(float): void\l
+    }"]
+
+    WarningLight [label="{
+        WarningLight
+        |
+        |
+        + setFlashRate(int): void\l
+    }"]
+
+    AutoThrottle [label="{
+        AutoThrottle
+        |
+        - engines: Engine[]\l
+        |
+    }"]
+
+    ThrustSensor [label="{
+        ThrustSensor
+        |
+        |
+    }"]
+
+    CockpitDisplay [label="{
+        CockpitDisplay
+        |
+        - ??? \l
+        - gauges: VibrationGauge[]\l
+        |
+        + ??? \l
+        + ??? \l
+    }"]
+
+    CockpitControlSystem [label="{
+        CockpitControlSystem
+        |
+        - ??? \l
+        - throttles: ThrottleLever[]\l
+        - display: CockpitDisplay\l
+        |
+    }"]
+
+    Engine [label="{
+        Engine
+        |
+        - sensors: SensorDevice[]\l
+        |
+        + ??? \l
+        + ??? \l
+        + ??? \l
+    }"]
+
+    // Relationships between classes are defined in the following section
+    WarningLight -> CockpitDisplay [arrowhead="odiamond"]
+    MysteryClass2 -> CockpitDisplay [arrowhead="odiamond"]
+
+    VibrationSensor -> SensorDevice [arrowhead="???"]
+    ThrustSensor -> SensorDevice [arrowhead="???"]
+    CockpitDisplay -> CockpitControlSystem [arrowhead="???"]
+    MysteryClass1 -> CockpitControlSystem [arrowhead="???"]
+    SensorDevice -> Engine [arrowhead="???"]
+    AutoThrottle -> Engine [arrowhead="???"]
+    MysteryClass1 -> Engine [arrowhead="???"]
+    CockpitControlSystem -> Engine [arrowhead="???"]
+
+}

@@ -1,0 +1,26 @@
+As part of the in-flight navigation system of the Boeing 737-400, there are a number of functions that perform basic mathematical computations.
+For example, there is a method with the following signature that can be used to calculate the velocity of the aircraft:
+
+```java
+float calculateGroundSpeed(float leftHandEngineThrust, float rightHandEngineThrust, float windSpeed)
+```
+
+This method calculates the equilibrium (steady state) ground speed of the aircraft, given the following parameters:
+
+- `leftHandEngineThrust` is the thrust force being produced by the left-hand engine of the aircraft
+- `rightHandEngineThrust` is the thrust force being produced by the right-hand engine of the aircraft
+- `windSpeed` is the wind speed _parallel to the direction_ of travel
+
+The velocity of an aircraft can be calculated using the following simplified formula:
+
+&nbsp;&nbsp;&nbsp;&nbsp;V = <span style="font-size:22px">&radic;</span><span style="text-decoration:overline; font-size:15px">2TD&nbsp;</span>
+
+Where `V` is velocity (in miles per hour), `T` is the combined thrust provided by all engines (in Newtons) and `D` is the "drag factor" of the plane. (You can assume that at its cruising altitude, the 737-400 has a drag factor of `0.84`). Each engine on the 737-400 produces up to `100 Kn` of thrust, resulting in a maximum air speed of around `580 mph` !
+
+Note that the calculation above will give the aircraft's air speed only (speed of travel through the air). You will need to take the wind speed into account in order to calculate the final ground speed of the aircraft (speed of travel relative to the ground). In the interests of simplicity, you may assume that the wind speed that is passed in as a parameter will always be parallel to the direction of travel (i.e. you do not need to deal with wind hitting the plane side-on or at an angle to the direction of flight).
+
+Your task is to identify a set of cases that will _fully_ exercise the operation of the `calculateGroundSpeed` method. Open and edit <a href="templates/test-cases.md" target="_blank">this test case table</a>, adding as many rows to the table as you need to fully document all of your test cases. You should however maintain the same columns and formatting contained in the original document.
+
+You should remember that this exercise is not just about _quantity_ of the test cases, but also the _quality_ of them. The aim is to maximise coverage of the operation of the method with as few test cases as possible. Think about boundary cases and equivalence partitions and avoid duplicating equivalent test cases. You should try to test as many combinations/permutations of the parameter partitions as possible.
+
+All values provided in your answer should be floating point numbers, rounded to the nearest two decimal places (where relevant). For your reference, the programming language used to implement the speed calculation function represents floating point values in the range `-9999.0` to `9999.0`.

@@ -1,0 +1,16 @@
+You may also have noticed when viewing the previously provided UML class diagram document, that five of the methods are missing. Edit the graphviz document, replacing the `???` elements with appropriate methods. You should pick the most appropriate methods from the following list (don't invent ones of your own !):
+
+- `flashWarningLight(id, rate): void`
+- `setFuelFlowRate(rate): void`
+- `setEngineThrust(): void`
+- `setGaugeValue(id, value): void`
+- `getVibrationReading(): float`
+- `getCurrentReading(): float`
+- `getSensorDevices(): void`
+- `getLeverPosition(): float`
+- `engageAutoThrottle(): void`
+- `getThrustReading(): float`
+
+
+
+Ensure that you only change the `???` elements and don't alter any of the structure or content of the rest of the document.
