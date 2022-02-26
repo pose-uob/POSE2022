@@ -1,12 +1,12 @@
 | Possible Class Name    | YES | NO |
 |:-----------------------|:---:|:--:|
-| EastMidlandsAirport    |     |    |
-| CaptainKevinHunt       |     |    |
-| Rudder                 |     |    |
-| FlightMidland92        |     |    |
-| FireBell               |     |    |
-| EngineFire             |     |    |
-| SmokeInCockpit         |     |    |
-| QuickReferenceHandbook |     |    |
-| AutoThrottle           |     |    |
-| ILS                    |     |    |
+| EastMidlandsAirport    |  X  |    |
+| CaptainKevinHunt       |     |  X |
+| Rudder                 |  X  |    |
+| FlightMidland92        |     |  X |
+| FireBell               |  X  |    |
+| EngineFire             |  X  |    |
+| SmokeInCockpit         |     |  X |
+| QuickReferenceHandbook |  X  |    |
+| AutoThrottle           |  X  |    |
+| ILS                    |     |  X |
