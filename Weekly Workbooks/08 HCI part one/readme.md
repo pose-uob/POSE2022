@@ -1,0 +1,1 @@
+HCI Evaluation lecture videos are up on this [Streams Channel](https://web.microsoftstream.com/channel/a15131cb-ef18-4b9d-8c2f-9843f2ec853a)
